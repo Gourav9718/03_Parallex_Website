@@ -1,0 +1,206 @@
+*{
+    padding: 0;
+    margin: 0;
+    }
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.contanier{
+    background-image: url('images/navigation.jfif');
+    background-repeat: no-repeat;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.contanier{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 2px;
+    width: auto;
+    margin: 10px;
+    background-color: cadetblue;
+}
+
+.toc{
+    padding: 20px;
+    margin: 0px;
+    width: 70px;
+    font-size: 120%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+
+    section{
+        background-color: dimgrey;
+        color: white;
+        margin: 10px;
+        width: auto;
+        height: 500px;
+        
+    }
+
+.body1,.body3,.body5{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+        width: auto;
+        height: fit-content;
+        color: #ddd;
+        background-color: #282e34;
+            }
+
+p{
+    line-height: 1.9em;
+    font-size: 110%;
+    text-align: center;
+}
+
+h2{
+
+    margin-bottom: 20px;
+    font-size: 180%;
+}
+
+.head1,.body2,.body4,.body6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: auto;
+    height: 500px;
+    background-attachment: fixed;
+        }
+
+div.title{
+    font-size: 110%;
+    display: block;
+    background-color: #484141;
+    color: white;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 8px;
+}
+
+.head1{
+    background-image: url('images/pexels-photo-2583852.jpeg');
+    background-repeat: no-repeat;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    }
+
+    .body2{
+        background-image: url('images/pexels-photo-417074.jpeg');
+        background-repeat: no-repeat;
+        min-height: 100%;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+            }
+    .body4{
+        background-image: url('images/pexels-photo-799443.jpeg');
+        background-repeat: no-repeat;
+        min-height: 100%;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+            }
+        .body6{
+            background-image: url('images/pexels-photo-1366913.jpeg');
+            background-repeat: no-repeat;
+            min-height: 100%;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+                    }
+    
+
+.toc:hover{
+    background-color: crimson;
+    
+}
+
+
+
+input.inp1{
+
+    border-radius: 18px;
+    margin-top:15px;
+    margin-right:10px;
+    margin-bottom:0px;
+    width:200px;
+    padding: 7px;
+    
+}
+
+#form1{
+    width: auto;
+    margin-right: 10%;
+    margin-left: 60%;
+    text-align: center;
+    }
+
+    #inp3{
+        border-radius: 20px;
+        height: 30px;
+        width: 300px;
+        margin: 10px;
+        padding: 6px;
+    }
+textarea{
+    border-radius: 20px;
+    height: 180px;
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+#Submit{
+
+    width: 150px;
+    height: 40px;
+    color: black;
+    background-color: #ddd;
+    border-radius: 10px;
+    }
+
+    form#form1{
+        border-radius: 50px;
+        height: 450px;
+        /* border: 2pt solid #484141; */
+    
+    }
+
+    .body7{
+        background-image: url('images/formquery.jfif');
+        background-repeat: no-repeat;
+        min-height: 100%;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        background-attachment: fixed;
+    }
+
+    footer{
+        padding-top: 15px;
+        padding-right: 15px;
+        float: right;
+        font-size: 90%;
+    }
+
+    #Submit:hover{
+        background-color: green;
+    }
